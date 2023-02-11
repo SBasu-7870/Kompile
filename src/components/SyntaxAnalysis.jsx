@@ -49,7 +49,7 @@ function SyntaxAnalysis() {
       <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased text-justify w-3/5 ml-7">
           Here, the pushdown automata (PDA) is used to design the parse tree in the syntax analysis phase.
           <br/> There are certain rules associated with the parse tree:
-          <div><ul className="ml-8 list-disc list-inside text-justify">
+          <div><ul className="ml-8 list-disc list-outside text-justify">
             <li>Any identifier is an expression</li>
             <li>Any number can be called an expression</li>
             <li>Performing any operations in the given expression will always result in an expression. For example, the sum of two expressions is also an expression.</li>

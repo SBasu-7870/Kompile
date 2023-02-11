@@ -23,7 +23,7 @@ export default function DefaultNavbar() {
                     <a
                         href="/"
                     >
-                        <NavbarBrand>IEM-Compiler V-Lab</NavbarBrand>
+                        <NavbarBrand>Kompile</NavbarBrand>
                     </a>
                     <NavbarToggler
                         onClick={() => setOpenNavbar(!openNavbar)}
