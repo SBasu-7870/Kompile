@@ -5,6 +5,7 @@ import LexicalAnalyser from '../components/LexicalAnalyser';
 import SyntaxAnalysis from '../components/SyntaxAnalysis';
 import SemanticAnalyser from '../components/SemanticAnalyser';
 import IntermediateCodeG from '../components/IntermediateCodeG';
+import CodeOptimizer from '../components/CodeOptimizer';
 
 function intro() {
   return (
@@ -19,15 +20,17 @@ function intro() {
         </p>
         </div>
         <div className='grid justify-items-center mt-2'>
-            <h2><b>Phases of a Compiler</b></h2>
+            <H2><b>Phases of a Compiler</b></H2>
             Broadly speaking, there are two major phases of a compiler which in turn have many parts, each of which take input from their previous level.
-            <img src={require("../assets/img/compilerPhases.jpg")} style={{height:"300px",maxWidth:"100%", objectFit:"contain", margin: "15px 0"}}/>
+            <img src={require("../assets/img/compilerPhases.jpg")} alt="compiler-Phases" style={{height:"300px",maxWidth:"100%", objectFit:"contain", margin: "15px 0"}}/>
+            <H2>Analysis Phase</H2>
         </div>
     </div>
     <LexicalAnalyser/>
     <SyntaxAnalysis/>
     <SemanticAnalyser/>
     <IntermediateCodeG/>
+    <CodeOptimizer/>
     </>
   )
 }
