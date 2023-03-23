@@ -203,8 +203,8 @@ function LexicalAnalyser() {
           className="flex w-max mt-2 gap-4 flex-row-reverse"
           style={{ width: "30rem" }}
         >
-          <Button ripple={true} onClick={handleClick}>
-            Ananlyse
+          <Button className="transition ease-in-out delay-150" ripple={true} onClick={handleClick}>
+            Analyse
           </Button>
           <Button variant="outlined" onClick={handleClear}>
             Clear
