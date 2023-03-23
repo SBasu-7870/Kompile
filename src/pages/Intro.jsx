@@ -6,6 +6,7 @@ import SyntaxAnalysis from '../components/SyntaxAnalysis';
 import SemanticAnalyser from '../components/SemanticAnalyser';
 import IntermediateCodeG from '../components/IntermediateCodeG';
 import CodeOptimizer from '../components/CodeOptimizer';
+import TCGenerator from '../components/TCGenerator';
 
 function intro() {
   return (
@@ -31,6 +32,8 @@ function intro() {
     <SemanticAnalyser/>
     <IntermediateCodeG/>
     <CodeOptimizer/>
+    <TCGenerator/>
+    <div className='my-36 text-center'>Back to the top</div>
     </>
   )
 }
